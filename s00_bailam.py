@@ -28,5 +28,11 @@ sumtwoint(None, None) | None
 
 #region bailam
 def sumtwoint(i1, i2):
-  return 'todo'
+  if(i1 != 'None' or i2 != 'None'):
+    tong = i1 + i2
+    return tong
+  else:
+    tong = 'None'
+    return tong
+print(sumtwoint)
 #endregion bailam
